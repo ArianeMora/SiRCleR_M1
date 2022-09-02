@@ -1,0 +1,8 @@
+exportPattern("^[[:alpha:]]+")
+export(sircleAlluvial)
+export(sircleGSEA)
+export(sircleMotif)
+export(sircleORAHuman)
+export(sircleORAMouse)
+export(sirclePlot)
+export(sircleRCM)
