@@ -2,7 +2,7 @@
 
 ## Tutorial
 
-See R tutorial in the vignettes folder.
+See R tutorial in the **vignettes** folder.
 
 If you want to read more about how SiRCle works, please check out our paper: https://www.biorxiv.org/content/10.1101/2022.07.02.498058v1 
 
@@ -20,8 +20,7 @@ library(sircleM1)
 ```
 
 ## Run
-See the examples folder for a proper tutorial with data included that you can run!
-
+See the **vignettes** folder for a proper tutorial with data included that you can run!
 
 #### Making your CpGs map to a single gene version
 This is only in python at the moment if you're interested in this post an issue and I'll work on adding this to the R version :) 
