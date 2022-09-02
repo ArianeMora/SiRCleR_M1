@@ -4,6 +4,8 @@
 
 See R tutorial in the vignettes folder.
 
+If you want to read more about how SiRCle works, please check out our paper: https://www.biorxiv.org/content/10.1101/2022.07.02.498058v1 
+
 ## Install
 
 #### R version
