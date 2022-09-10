@@ -8,9 +8,9 @@ If you want to read more about how SiRCle works, please check out our paper: htt
 
 ## Install
 
-#### R version
+### R 
 
-Just install direcly in R:
+Just install direcly in R, this will work for Windows and Mac (and probably Linux). 
 
 ```
 #install.packages("devtools")
@@ -18,6 +18,33 @@ library(devtools)
 install_github("ArianeMora/SiRCleR_M1")
 library(sircleM1)
 ```
+
+#### Windows 
+Note if you are running **Windows** you might have an issue with long paths, to fix this please you can resolve this in the registry on Windows 10 (Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths). If you have a different version of Windows, just google "Long paths fix" and your Windows version.
+
+#### Mac with an M1 chip (new versions 2022) 
+If you are using a Mac with an M1 chip please see our M1 R version of the package (https://github.com/ArianeMora/SiRCleR_M1), it only has the regulatory clustering component, you will need to use python for the VAE component because of how the chip works with tensorflow.
+
+#### Other dependencies 
+
+If you are using the visualisations for the over representation analysis you will need to install the following tools (also cite them!)
+
+#### CRAN packages
+```
+install.packages('ggnewscale')
+
+```
+#### Biocmanager packages
+```
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("enrichplot")
+BiocManager::install("org.Hs.eg.db")
+BiocManager::install("clusterProfiler")
+```
+
+Also while we have done our best to ensure all the dependencies are documented, if they aren't please let us know! And we will try to resolve them :) 
+
 
 ## Run
 See the **vignettes** folder for a proper tutorial with data included that you can run!

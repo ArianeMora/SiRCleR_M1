@@ -78,7 +78,7 @@ sircleORAHuman <- function(filename, entrezId, regLabels="RegulatoryLabels", emp
         ggtitle(paste("Heatplot ", g, sep=""))
       ggsave(file=paste("SiRCle-ORA_Heatplot_Human_", g, ".", fileType, sep="" ), plot=Heatplot,width=10, height=8)
 
-      }
+      }Transcriptomics.Rmd
   }
 }
 
