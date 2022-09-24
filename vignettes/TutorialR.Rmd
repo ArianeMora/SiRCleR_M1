@@ -35,7 +35,7 @@ geneId <- 'ensembl_gene_id'
 sircleFileName <- paste0(data_dir, "SircleR-RCM.csv")
 
 # Use basilisk to create an environment we can use
-bas_scircm <- BasiliskEnvironment(envname="s_sircle",
+bas_scircm <- BasiliskEnvironment(envname="s_sircle_m1",
                                    pkgname="sircle",
                                    packages=c("numpy==1.20"),
                                   pip=c("sircle==0.0.2")
